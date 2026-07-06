@@ -1,0 +1,29 @@
+.footer{
+    background:#0d164d;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.footer h3{
+    margin-bottom:10px;
+}
+
+.footer p{
+    margin-bottom:20px;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.footer-links a{
+    text-decoration:none;
+    color:white;
+}
+
+.footer-links a:hover{
+    color:#4e8cff;
+}

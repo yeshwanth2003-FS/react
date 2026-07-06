@@ -2,6 +2,8 @@ import "./Banner.css"
 const Banner =()=>{
     return(<>
         <br /><br />
+        <h1>task-2 hero banner</h1>
+        <br /><br />
         <div className="Hero">
         <div className="parents">
             <img src="./croptech/crop.png" alt="" />

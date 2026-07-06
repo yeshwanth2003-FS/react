@@ -1,0 +1,36 @@
+.cardsparent img{
+    width: 300px;
+    height: 300px;
+   
+
+}
+.cardsparent{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+     background-color: #1e1e1e;
+  
+
+}
+.cardschild1{
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     color: white;
+    background-color: #2d2d2d;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+  font-size:18px;
+font-weight:bold;
+   
+   
+
+}
+.cardschild1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}

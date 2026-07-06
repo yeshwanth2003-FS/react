@@ -1,0 +1,29 @@
+.parent img {
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.parent{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(2, 2, 58);
+    
+}
+.parent2{
+    background-color:white ;
+    border-radius: 30px;
+    padding: 30px;
+
+
+}
+.child2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}

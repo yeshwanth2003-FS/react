@@ -1,4 +1,5 @@
 import Banner from "../components/Banner"
+import Cards from "../components/Cards"
 import Navbar from "../components/Navbar"
 
 
@@ -7,6 +8,7 @@ const Home = () => {
    <>
     <Navbar/>
     <Banner/>
+    <Cards/>
    </>
   )
 }

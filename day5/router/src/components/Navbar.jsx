@@ -1,15 +1,19 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <>
-    
-    <Link to="/">Home</Link>
-     <Link to="/About">About</Link>
+    <div className="flex justify-between items-center p-3">
+   <div className="p-3  ">
+    <h1>logo</h1>
+   </div>
+    <div className="flex gap-5 ">
+      <Link to="/">Home</Link>
+      <Link to="/About">About</Link>
       <Link to="/Contact">Contact</Link>
-       <Link to="/Help">Help</Link>
-   
-
+      <Link to="/Help">Help</Link>
+    </div>
+    </div>
 
     </>  
      
@@ -17,4 +21,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

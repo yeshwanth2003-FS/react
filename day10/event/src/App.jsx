@@ -2,33 +2,53 @@ import React, { useState } from 'react'
 
 const App = () => {
 
-  const event=()=>{
-    alert("welcome to react")
-  }
-  const[isactive,setisactive]=useState(true)
+const[count,setcount]=useState(0)
 
   const number=()=>{
+    setcount(count+1)
+  }
+ 
+    const [name,setname]=useState("")
+
+  const change=()=>{
+    
+    setname("yeshwanth")
+
+  }
+
+
+
+  const[isactive,setisactive]=useState(false)
+
+  const loggin=()=>{
 
     setisactive(!isactive)
     
     
   }
+   
+    const [course,setcourse]=useState("JavaScript")
 
-  const [name,setname]=useState(yesh)
-
-  const change=()=>{
+  const update=()=>{
     
-    setname="yeshwanth"
+    setcourse("React JS")
 
   }
 
+
+
   return (
      <>
-     <h1>hiii</h1>
-      <button onClick={event}>click me</button> <br /><br />
-      <h1 >{isactive?<p>logged in</p>:<p>logged out</p>}</h1>
-       <button  onClick={number}>click me</button>
-      
+    
+    <button onClick={number}>clickme</button>
+     <p>{count}</p>     
+     <button onClick={change}>clickme</button>
+     <h1>{name}</h1>
+     <h1 >{isactive?<p>Welcome User</p>:<p>Please Login</p>}</h1>
+     <button  onClick={loggin}>login</button> <br /><br />
+
+      <button onClick={update}>update course</button>
+     <h1>{course}</h1>
      </>
     
   )

@@ -1,0 +1,76 @@
+RDBMS
+
+RDBMS stands for Relational Database Management System.
+It is used to store, manage and organize data in tables.
+Examples: MySQL, PostgreSQL, Oracle, SQL Server.
+
+
+SQL
+
+SQL stands for Structured Query Language.
+It is used to communicate with databases.
+We use SQL to create, read, update and delete data.
+Examples: SELECT, INSERT, UPDATE, DELETE.
+
+
+MySQL
+
+MySQL is an RDBMS.
+It stores data in tables and uses SQL to manage the data.
+It is widely used in web applications.
+
+
+MySQLi
+
+MySQLi stands for MySQL Improved.
+It is a PHP extension used to connect PHP applications with MySQL databases.
+MySQLi supports both procedural and object-oriented programming.
+
+
+PG
+
+PG usually refers to PostgreSQL.
+PostgreSQL is an open-source RDBMS.
+It uses SQL to store and manage data.
+It is an alternative to MySQL.
+
+
+Oracle
+
+Oracle Database is a commercial RDBMS developed by Oracle.
+It is widely used in large-scale enterprise applications.
+It supports SQL and advanced database features.
+
+
+Server
+
+A server is a computer or software that provides services or resources to other computers.
+A database server stores and manages databases and responds to application requests.
+
+
+XAMPP
+
+XAMPP is a local development environment.
+It includes Apache, MariaDB/MySQL-related components, PHP and Perl.
+It is commonly used to run PHP and database applications on a local computer.
+
+
+WAMP
+
+WAMP stands for Windows, Apache, MySQL, PHP.
+It is a local development environment for Windows.
+It is mainly used to develop and test PHP applications locally.
+
+
+GUI
+
+GUI stands for Graphical User Interface.
+It allows users to interact with software using buttons, menus, windows and other visual elements.
+Example: MySQL Workbench.
+
+
+MySQL Workbench
+
+MySQL Workbench is a GUI tool for MySQL.
+It is used to create databases, tables and SQL queries.
+It can also be used to manage and visualize MySQL databases.
